@@ -22,3 +22,10 @@ variable "Vnet_location_platform" {
   default  = "RG-Platform-Networking"
   
 }
+
+variable "admin_password" {
+  description = "Admin password for VMs"
+  type        = string
+  default     = "P@ssw0rd1234!"
+  
+}
